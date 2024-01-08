@@ -1,0 +1,117 @@
+body{
+  background-image: url("../images/bg-body.png");
+  background-repeat: repeat-x;
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  background-image: url("../images/bg-footer.png");
+  background-repeat: repeat-x;
+  margin: 0;
+  min-height: 380px;
+}
+
+header{
+  background-color: #ff850b;
+  height: 50px;
+  margin: 0;
+  padding: 8px 0 0 0;
+}
+
+.formsecao{
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.header{
+  font-family: 'Inika', serif;
+  font-size: 18px;
+  margin-left: 20px;
+  text-decoration: none;
+  vertical-align: middle;;
+  color: #ffdeb3;
+}
+
+.header:hover{
+  color: #FFFFFF;
+}
+
+.topimage{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.topimage img{
+  height: 40px;
+}
+
+#container{
+  margin: 0px 20px;
+  padding: 0;
+  width: 1440px;
+}
+
+#hl-menu{
+  list-style-type: none;
+}
+
+#hl-menu li{
+  font-family: 'Inika', serif;
+  width: 300px;
+  background-color: #CCCCCC;
+}
+
+.hl-info{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.cat{
+  background-image: url("../images/grad-1.png");
+  height: 400px;
+  width: 240px;
+}
+
+.download{
+  font-family: Inika;
+  text-decoration: none;;
+  color: #000000;
+
+}
+
+.items{
+  background-color: #efefef;
+  margin-left: 120px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.quaditem{
+  font-size: 18px;
+  float: left;;
+  width: 200px;
+  text-align: center;
+}
+
+.quadrinhosthumb{
+  height: 260px;
+}
+
+.formsecao{
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.formsecao a{
+  text-decoration: none;
+  color: #000000;
+}

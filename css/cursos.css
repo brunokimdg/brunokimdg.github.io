@@ -1,0 +1,82 @@
+.aula-assin{
+  margin: 0 auto 20px auto;
+  background-color: #E9E9E9;
+  border-radius: 25px;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+}
+
+.aula-assin table{
+  width: 100%;
+}
+
+.modsbots{
+  display: flex;
+  padding-inline-start: 80px;
+}
+
+.modsbots li{
+  list-style: none;
+}
+
+.modbot, .modbotm{
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  height: 380px;
+  overflow: hidden;
+  text-align: center;
+  width: 240px;
+}
+
+.modbotm{
+  margin-left: 20px;
+}
+
+
+.modbot, .modbot > *, .modbotm, .modbotm > *{
+  transition: height 2s, width 2s, font-size 2s;
+}
+
+/* aumentado em 5% */
+.modbot:hover, .modbotm:hover{
+  background-size: 315px;
+  height: 399px;
+  width: 252px;
+}
+
+.modbot h3, .modbotm h3{
+  position: absolute;
+  margin: 8px;
+  color: white;
+  font-family: "swister", sans-serif;
+  font-size: 2rem;
+}
+
+.modbot:hover h3, .modbotm:hover h3{
+  font-size: 2.1rem;
+}
+
+.modbot p, .modbotm p{
+  position: absolute;
+  margin: 50px 13px;
+  color: white;
+  font-family: "base-900-sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.modbot:hover p, .modbotm:hover p{
+  font-size: 1.05rem;
+}
+
+.modbot figure, .modbotm figure{
+  margin-left: -100px;
+  margin-top: -10px;
+  width: 400px;
+}
+
+.modbot:hover figure, .modbotm:hover figure{
+  width: 420px;
+}

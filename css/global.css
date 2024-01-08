@@ -1,0 +1,186 @@
+body{
+  background-color: #E1D7CD;
+  background-repeat: repeat-x;
+  color: #222222;
+  font-family: "base-900-sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+table, th, td {
+  background-color: #E9E9E9;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  text-align: left;
+}
+
+.arvlat{
+  list-style: none;
+}
+
+.pfooter{
+  background-color: #443869;
+  margin: 20px 0 0 0;
+  height: 20px;
+  text-align: center;
+  width: 1440px;
+}
+
+.pfooter a{
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.pfooter a:hover{
+  color: grey;
+}
+
+.pheaderf{
+  background-color: #E9E9E9;
+}
+
+.pheader{
+  height: 30px;
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.pheader a{
+  color: #222222;
+  font-family: "base-900-sans", sans-serif;
+  margin-left: 20px;
+  text-decoration: none;
+  vertical-align: middle;;
+}
+
+.pheader a:hover{
+  color: #444444;
+}
+
+h1{
+  color: #2f254f;
+  font-size: 80px;
+  font-family: "swister", sans-serif;
+  font-weight: 900;
+}
+
+h2{
+  color: #2f254f;
+  font-family: "swister", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h3{
+  color: #2f254f;
+  font-family: "base-900-sans", sans-serif;
+  font-weight: 900;
+}
+
+h4{
+  color: #2f254f;
+  font-size: 64px;
+  font-family: "base-900-sans", sans-serif;
+  font-weight: 900;
+  margin: 40px auto;
+}
+
+container{
+  background-image: url("../imagens/bg-body.png");
+  margin: 0 auto;
+  min-height: 710px;
+  width: 1440px;
+}
+
+p{
+  color: #2f254f;
+  font-family: "base-900-sans", sans-serif;
+}
+
+.a1{
+  background-color: #E2D0AF;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  font-family: "base-900-sans", sans-serif;
+  padding: 10px;
+  margin: 20px auto;
+  text-decoration: none;
+}
+
+.a1:hover{
+  background-color: #b69c6e;
+}
+
+.button1{
+  background-color: #E2D0AF;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.button1:hover{
+  background-color: #b69c6e;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.header{
+  font-family: 'Inika', serif;
+  font-size: 22px;
+  margin-left: 20px;
+  text-decoration: none;
+  vertical-align: middle;;
+  color: #ffdeb3;
+}
+
+.header:hover{
+  color: #FFFFFF;
+}
+
+.topimage{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.topimage img{
+  height: 40px;
+}
+
+.logo-top{
+  width: 30px;
+}
+
+.btext{
+  font-size: 24px;
+}
+
+.ccont{
+  margin: 50px auto;
+  width: 920px;
+}
+
+.ccontm{
+  margin: 50px auto;
+  text-align: center;;
+  width: 920px;
+}
+
+.hl-info{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 300px;
+}

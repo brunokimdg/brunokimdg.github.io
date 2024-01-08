@@ -1,0 +1,72 @@
+.data{
+  margin: 10px 0 10px 30px;
+}
+
+.mais{
+  width: 1200px;
+  margin: auto;
+}
+
+.maispost{
+  margin: 10px;
+}
+
+.maisposti{
+  border-radius: 10px;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.maispostt{
+  float: left;
+  margin-left: 10px;
+  width: 900px;
+}
+
+.newest{
+  background-color: white;
+  border-radius: 25px;
+  margin: 30px auto;
+  overflow: hidden;
+  width: 1200px;
+}
+
+.newest figure{
+  margin: 0;
+}
+
+.newest-title{
+  font-family: "swister", sans-serif;
+  margin-top: 20px;
+}
+
+.nov-dupla{
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.nov-dupla-ind{
+  background-color: white;
+  border-radius: 25px;
+  float: left;
+  margin: 0 10px;
+  width: 280px;
+}
+
+.ndi-it{
+  border-top-left-radius: 25px;
+  border-top-right-radius:  25px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.nov-dupla-ind figure{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.headline{
+  font-size: 24px;
+  margin: 10px 0 10px 30px;
+}
