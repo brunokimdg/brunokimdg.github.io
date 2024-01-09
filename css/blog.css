@@ -1,5 +1,6 @@
 .data{
-  margin: 10px 0 10px 30px;
+  font-size: 14px;
+  margin: 10px 0 10px 20px;
 }
 
 .mais{
@@ -7,26 +8,37 @@
   margin: auto;
 }
 
+.mais a{
+  text-decoration: none;
+}
+
 .maispost{
   margin: 10px;
+  display: flex;
 }
 
 .maisposti{
   border-radius: 10px;
-  float: left;
   height: 100px;
   width: 100px;
 }
 
 .maispostt{
-  float: left;
+  font-size: 24px;
   margin-left: 10px;
+  margin-top: 25px;
   width: 900px;
+}
+
+.datamp{
+  color: #555;
+  font-size: 16px;
 }
 
 .newest{
   background-color: white;
   border-radius: 25px;
+  display: flex;
   margin: 30px auto;
   overflow: hidden;
   width: 1200px;
@@ -41,9 +53,14 @@
   margin-top: 20px;
 }
 
-.nov-dupla{
+.novoito{
   width: 1200px;
   margin: 20px auto;
+}
+
+.nov-dupla{
+  display: flex;
+  margin-bottom: 15px;
 }
 
 .nov-dupla-ind{
@@ -52,6 +69,10 @@
   float: left;
   margin: 0 10px;
   width: 280px;
+}
+
+.nov-dupla-ind a{
+  text-decoration: none;
 }
 
 .ndi-it{
@@ -68,5 +89,6 @@
 
 .headline{
   font-size: 24px;
-  margin: 10px 0 10px 30px;
+  height: 60px;
+  margin: 10px 0 10px 20px;
 }
